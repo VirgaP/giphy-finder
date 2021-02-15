@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifsList should exist 1`] = `
+<div
+  className="gifs-list m-auto"
+  id="gifsList"
+/>
+`;

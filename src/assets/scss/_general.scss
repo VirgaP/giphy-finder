@@ -1,0 +1,86 @@
+.center{
+    text-align: center;
+}
+
+.error{
+    color: $error;
+    font-size: small;
+}
+
+.main{
+    margin: 10% auto;
+}
+
+#keyword{
+    width: 620px;
+    margin-top: 2rem;
+    @media only screen and (max-width: 600px) {
+        width: 200px;
+        margin-bottom: 1rem;
+    }
+}
+
+.gif-wrapper{
+    position: relative;
+    padding: .5rem;
+    border: 5px solid $accent;
+    margin: 0.5rem;
+    background: $bg-primary;
+
+
+    button{
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+        background: transparent;
+        color: white;
+    }
+}
+
+.modal-content{
+    background: $bg-secondary !important;
+    text-align: center;
+}
+.modal-body{
+.img-responsive{
+    width: 600px;
+    height: auto;
+    @media only screen and (max-width: 600px) {
+        width: 300px;
+    }
+} 
+}
+
+.modal-header {
+    border-bottom: none !important;
+    font-size: 2.3rem;
+    justify-content: center !important;
+    color: $font-primary;
+    line-height: 2.3rem;
+}
+
+.modal-footer{
+    border-top: none !important;
+    justify-content: center !important;
+    button{
+        background-color: $accent;
+        padding: .5rem 2rem;
+        font-size: larger;
+    }
+}
+
+.gif-item{
+    position: relative ;
+    max-width: 200px !important;
+    padding: .5rem;
+}
+
+.gif-btn{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    background: transparent;
+    color: white;
+}
